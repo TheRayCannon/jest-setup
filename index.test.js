@@ -1,5 +1,5 @@
-const sum = require('./index')
+const multiply = require('./index')
 
-TextDecoderStream("multiplies two numbers", () => {
+test("multiplies two numbers", () => {
     expect(multiply(2, 4)).toBe(8);
 })

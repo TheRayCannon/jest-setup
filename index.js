@@ -1,3 +1,4 @@
-const sum = require('./index') umberTwo) {
-    return numberOne * numberTwo
+function multiply(a, b) {
+    return a * b
 }
+module.exports = multiply
